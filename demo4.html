@@ -11,14 +11,15 @@
         
         
         <section id="kalatori">
-        <ul>
-
-                <li> <a href="#kalatori">Kalatori</li></a>
-                <li> <a href="#markkinat">Markkinat</li></a>
-                <li> <a href="#hinnasto">Hinnasto</li></a>
-                <li> <a href="#yhteys">Ota yhteyttä</li></a>
-                <li> <a href="#sijainti">Sijainti</li></a>
+        <header>
+        <ul class="navi">
+                <li class="navi"> <a href="#kalatori">Kalatori</li></a>
+                <li class="navi"> <a href="#markkinat">Markkinat</li></a>
+                <li class="navi"> <a href="#hinnasto">Hinnasto</li></a>
+                <li class="navi"> <a href="#yhteys">Ota yhteyttä</li></a>
+                <li class="navi"> <a href="#sijainti">Sijainti</li></a>
         </ul>
+        </header>
 
 
         
@@ -40,14 +41,23 @@
     <li>Syysmarkkinat tiistai 13.10. klo 7–15</li>
     <li>Joulumarkkinat tiistai 15.12. klo 7–15</li>
 </ul>
-<img src = "./kuvat/mustekala.jpg" alt = "mustekala">
-<img src = "./kuvat/pienikala.jpg" alt = "pieni kala">
-<img src = "./kuvat/rapu.jpg" alt = "rapu">
+<div id="kuvat">
+<img src = "./kuvat/mustekala.jpg" alt = "mustekala" class="round">
+<img src = "./kuvat/pienikala.jpg" alt = "pieni kala" class="round">
+<img src = "./kuvat/rapu.jpg" alt = "rapu" class="round">
+</div>
 </section>
 <section id = "hinnasto">
+        <div id="hintaalue">
 <a name="hinnasto"><h3>Hinnasto</h3></a>
 
+<div id="paikkakartta">
+
 <img src="./kuvat/tori.jpg" alt="tori"><br>
+
+</div>
+
+<div id="hintataulukko">
 <table>
     <tr><!--Otsikkorivi-->
             <th>Tunnus</th><!--Table head = th-->
@@ -129,7 +139,9 @@
 </tr>    
 </table>
 </section>
+</div>
 <section id="sijainti">
+        <div id="hintaalue"></div>
 <p>
          paikkakartta
          </p>
