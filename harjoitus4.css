@@ -1,0 +1,49 @@
+ul {
+    padding:10;
+    width: 150px;
+    background-color:grey;
+    margin-left: 45%;
+    margin-right: 50%;
+    list-style-type: none;
+    
+
+
+}
+
+li a{
+    display: block;
+    color:white;
+    padding: 22px 34px;
+    text-decoration: none;
+    
+
+
+}
+li a.active{
+    background-color: black;
+    color:white
+}
+
+li a:hover:not(.active) {
+    display:block;
+    background-color: #555;
+    color: white;
+    transition: linear 1s;
+  }
+
+  ul:hover {
+    width: 200px;
+    transition: linear 1s;
+
+  }
+
+  
+
+  ul {
+    padding:10;
+    width: 0px;
+    background-color:grey;
+
+
+  }
+

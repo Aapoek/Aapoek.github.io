@@ -1,0 +1,59 @@
+a {
+    color: #151515;
+    transition-property: all;
+    transition-timing-function: line;
+    }
+    nav a:hover {
+    font-weight: 400;
+    }
+    nav, nav:hover {
+    padding: 1em;
+    }
+    nav a {
+    text-indent: -200px;
+    }
+    nav:hover a {
+    text-indent: 0px;
+    color: #EEFFE5;
+
+    }
+    nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: auto;
+    width: 40px;
+    background-color: white;
+;
+    transition-property: all;
+    transition-timing-function: line;
+    }
+    nav:hover {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: auto;
+    width: 140px;
+    background-color: #9ED29E;
+    }
+    nav a {
+    
+    filter: alpha(opacity=0);
+    opacity: 0;
+    margin-left: 1em;
+    }
+    nav:hover a {
+    
+    filter: alpha(opacity=100);
+    opacity: 1;
+    }
+    li {
+    display: block;
+    padding: 0.2em;
+    height: 32px;
+    }
+    svg, a {
+    display: inline-block;
+    }
