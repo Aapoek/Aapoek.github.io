@@ -3,17 +3,31 @@
 <head>
     <meta charset="UTF-8">
 <Title>Harj2.html</Title>
+<link rel = "stylesheet" type = "text/css" href="harjoitus5.css">
 </head>
+
+<header>
+                <ul class="navi">
+                        <li class="navi"> <a href="#lista">Lounaslista</li></a>
+                        <li class="navi"> <a href="#auki">Aukioloajat</li></a>
+                        <li class="navi"> <a href="#varaus">Pöytävarauslomake</li></a>
+                        <li class="navi"> <a href="#sijainti">Sijainti</li></a>
+                        <li class="navi"> <a href="#lista">Ruokalista</li></a>
+                </ul>
+                </header>
+        
 <body>
 <h1>Ravintola Oula</h1><br>
-<!--Photoshop ei toiminut, jonka takia en pystynyt muokkaamaan kuvien kokoa oikeaksi.-->
+
 <h2>Lounaslista</h2>
 <img src="K:\OhjelmoinninPerusteet\Aapoek.github.io\kuvat\paisti.jfif" alt="Naudan paahtopaisti">
-<img src="K:\OhjelmoinninPerusteet\Aapoek.github.io\kuvat\keitto.jfif" alt="Yrttikeitto">
-<img src="K:\OhjelmoinninPerusteet\Aapoek.github.io\kuvat\käristys.jfif" alt="Poronkäristys">
-<img src="K:\OhjelmoinninPerusteet\Aapoek.github.io\kuvat\lohi.jfif" alt="Paistettulohi">
+<img src="K:\OhjelmoinninPerusteet\Aapoek.github.io\kuvat\keitto.jpg" alt="yrttikeitto">        
+<img src="K:\OhjelmoinninPerusteet\Aapoek.github.io\kuvat\käristys.jpg" alt="Poronkäristys">
+<img src="K:\OhjelmoinninPerusteet\Aapoek.github.io\kuvat\lohi.jpg" alt="Paistettulohi">
 <img src="K:\OhjelmoinninPerusteet\Aapoek.github.io\kuvat\salaatti.jfif" alt="kanasalaatti">
 <ul>
+
+                <section id="lista">  
 <li><strong>Maanantai</strong></p></li>
         
         <p>   
@@ -49,10 +63,10 @@
         Naudan paahtopaistia,<br> punaviinikastiketta, kermaperunat ja kasviksia
         Suklaamousse</p>
 
-
+</section>
 <p><li>Lounaan hinta (11 euroa, sisältää ruokajuoman - vesi, kotikalja, maito)</p>  
 </ul>
-
+<section id ="auki">
 <li><h2>Aukioloajat</h2></li>
 <!--Aukioloajat (ma - pe 10:30 - 15:00, la 11:00 - 15:00 ja
  pe ja la 17:00 - 21:00 à la carte -lista)-->
@@ -76,6 +90,37 @@
             </tr> 
     </table>
 <br>
+</section>
+<section id ="varaus">
+<form method="POST">
+<p>Pöytävarauslomake</p>
+
+        Nimi<br>
+        <input type = "text" name = "nimi" required placeholder="Voit käyttää omaa nimeäsi tai nimimerkkiä"><br>
+
+        Sähköposti<br>
+        <input type = "email" name = "email" required><br>
+
+        Puhelinnumero<br>
+        <input type="tel" id="phone" name="phone" placeholder="123-45-678"><br>
+
+        Päiväys<br>
+        <input type = "date" name = "pvm"><br>
+
+        <input type="time" id="appt" name="appt"><br>
+
+        Erikoistoivomukset<br>
+        <textarea rows="6" cols="50">
+
+        </textarea>
+
+        <input type ="reset" value ="Tyhjennä"><br>
+        <input type ="submit" value = "Lähtetä">
+</form>
+</section>
+
+
+<section id="sijainti">
 <address>
     Ravintola Oula<br>
     Hallituskatu 12<br>
@@ -83,7 +128,9 @@
         
     Puh. (016) 555 4755<br>
     Fax (016) 555 4756<br>
-    E-Mail: ravintola.oula@oulanet.fi<br></address>    
+    E-Mail: ravintola.oula@oulanet.fi<br></address>    <br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2201.4867833409735!2d23.755825716342486!3d61.496538882468904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468ed8ae811d2891%3A0x6d190551fb145c03!2sHallituskatu%2012%2C%2033200%20Tampere!5e1!3m2!1sfi!2sfi!4v1601964134012!5m2!1sfi!2sfi" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</section>
 </ul>
 </body>
 </html>
