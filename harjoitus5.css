@@ -1,8 +1,94 @@
+
+h1{
+    font-family: 'Rock Salt', cursive;
+    font-size:40px;
+    text-align: center;
+}
+
 a{
-background-image:url("K:\OhjelmoinninPerusteet\Aapoek.github.io\kuvat\teollisuustie12.PNG");
 background-size:100%;
-color:#ffffff;
+color:black;
 margin-left:60px;
 font-family:"Arial bold", sans-serif;
 font-size: 1.3em;
+
 }
+
+
+ul.navi {
+    width: fit-content;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    height: 40px;
+  }
+
+  li.navi {
+    float: right;
+  }
+  
+  li.navi a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+  }
+  
+  li.navi a:hover:not(.active) {
+    background-color: rgb(95, 73, 197);
+  }
+
+  .active {
+    background-color: grey;
+
+}
+
+section {
+    height:70vh;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right:60px;
+    padding-bottom: 20px;
+}
+
+#navigointi{
+    background:lightblue;
+    text-align: center;
+}
+
+#lounaslista{
+    background:lightcoral;
+    text-align: center;
+}
+
+#auki{
+    background:burlywood;
+    text-align: center;
+}
+
+#sijainti{
+    background: thistle;
+    text-align: center;
+    
+}
+
+#varaus{
+    background:lightcyan;
+    text-align: center;
+}
+
+img{
+    height: 200px;
+    width: 250px;
+    border-radius: 10%;
+    margin-left: 75px;
+    
+  
+}
+
+ul {
+    list-style-type: none;
+  }

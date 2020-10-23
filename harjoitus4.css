@@ -33,7 +33,7 @@ li a:hover:not(.active) {
 
   ul:hover {
     width: 200px;
-    transition: linear 1s;
+    transition: linear 1s; 
 
   }
 
