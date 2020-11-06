@@ -19,10 +19,6 @@ li a{
 
 
 }
-li a.active{
-    background-color: black;
-    color:white
-}
 
 li a:hover:not(.active) {
     display:block;
@@ -37,7 +33,6 @@ li a:hover:not(.active) {
 
   }
 
-  
 
   ul {
     padding:10;

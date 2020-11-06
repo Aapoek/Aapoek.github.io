@@ -1,0 +1,39 @@
+ul {
+    margin-left: 45%; /*ul sijainti näytöllä*/
+    margin-right: 50%; 
+    list-style-type: none; /*poistaa listan pisteet*/ 
+    
+
+
+}
+
+li a{
+    display: block;
+    color:white;
+    padding: 22px 34px;
+    text-decoration: none; /*poistaa viivan tekstin alta*/
+    
+
+
+}
+
+li a:hover:not(.active) {
+    display:block;
+    background-color: #555; /*muutos väri*/
+    color: red;/*tekstin väri*/
+    transition: linear 1s; /*värin muutoksen nopeus*/
+  }
+
+  ul:hover {
+    width: 150px; /*leveys johon leveys kasvaa*/
+    transition: linear 1s; /*muutoksen kesto*/ 
+
+  }
+
+  ul {
+    width: 0px;
+    background-color:grey; /*koko listan väri*/
+
+
+  }
+

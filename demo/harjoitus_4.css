@@ -1,0 +1,17 @@
+div {
+    width: 100px; /*leveys*/
+    height: 100px;/*korkeus*/
+    background-color: red; /*taustaväri*/
+    position: relative;
+    animation-name: example; /*animaation nimi*/
+    animation-duration: 2s; /*yhden keyframen ajan pituus*/
+    animation-iteration-count: infinite; /*kuinka monta kertaa animaatio tapahtuu*/
+  }
+  
+  @keyframes example {
+    0%   {background-color:rgb(30, 255, 0); left:0px; top:0px;}
+    25%  {background-color:rgb(195, 0, 255); left:200px; top:0px;}
+    50%  {background-color:rgb(255, 80, 0); left:200px; top:200px;}
+    75%  {background-color:rgb(128, 0, 0); left:0px; top:200px;}
+    100% {background-color:rgb(111, 0, 255); left:0px; top:0px;}
+  }
