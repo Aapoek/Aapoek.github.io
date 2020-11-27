@@ -6,7 +6,7 @@ body{
     position: relative; 
     margin:auto; 
     top: 60px;
-    height: 485px;
+    height: 520px;
     width: 30%;
     background-color: thistle;
     text-align: center;
@@ -54,6 +54,7 @@ body{
 }
 
 .button{
+    width: 140px;
     background-color: gold;
     border-style: solid;
     border-color: black;
@@ -67,3 +68,26 @@ body{
     cursor: pointer;
     border-radius:15px;
 }
+
+.takaisin{
+    background-color: gold;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 2px;
+    cursor: pointer;
+    border-radius:15px;
+    text-decoration: none;
+    
+
+}
+.takas{
+    text-decoration: none;
+    color:black;
+}
+
