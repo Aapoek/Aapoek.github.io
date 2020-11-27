@@ -223,3 +223,19 @@ body{
   border-radius: 10%;
 }
   
+@media only screen and (max-width:100%) {
+  /* For tablets: */
+  .parent {
+    width: 100%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:100%) {
+  /* For mobile phones: */
+  .navbar , .parent, .right {
+    width: 100%;
+  }
+}
