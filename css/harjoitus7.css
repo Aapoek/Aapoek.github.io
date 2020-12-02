@@ -66,9 +66,9 @@ body{
     
   }
   
-  .navbar a:hover, .dropdown:hover .dropbtn {
+  /*.navbar a:hover, .dropdown:hover .dropbtn {
     
-  }
+  }*/
   
   .dropdown-content {
     display: none;
@@ -152,9 +152,10 @@ body{
   
   .rectangle {
     position: absolute;  
-    top: 595px;
+    top: 740px;
     height: 285px;
     width: 100%;
+    float: bottom;
     background-color: #3A405A;
     opacity: 0.75;
   }
@@ -183,59 +184,100 @@ body{
       font-size: 30px;
   }
 .laatikot{
-  position: relative;  
+  position: absolute;  
   height: 600px;
   width: 100%;
   text-align: center;
   background-color: white;
+  padding-right: 80px ;
+  padding-left: 80px;
 }
 
 .laatikko1{
-  position: absolute; 
+  position: relative; 
   top: 10px;
-  left:10px;
+  float: right;
   height: 570px;
-  width: 30%;
-  background-color: thistle;
-  text-align: left;
-  border-radius: 10%;
+  width: 22%;
+  border-radius: 5%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  right: 80px;
+  
 }
 
 .laatikko2{
-  position: absolute; 
+  position: relative; 
   top: 60px;
-  left:1050px;
+  float: left;
   top: 10px;
   height: 570px;
-  width: 30%;
-  background-color: thistle;
-  border-radius: 10%;
+  width: 22%;
+  border-radius: 5%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  left:80px; 
 }
 
 .laatikko3{
-  position: absolute; 
+  position: relative; 
   top: 10px;
-  left:520px;
-  
+  margin:auto;
   height: 570px;
-  width: 30%;
-  background-color: thistle;
-  border-radius: 10%;
-}
+  width: 22%;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5%;
+  border-color: black;
+
   
+}
+
+.laatikko1_kuva, .laatikko2_kuva, .laatikko3_kuva{
+  width: 100%;
+  height: 250;
+  border-top-left-radius: 6%;
+  border-top-right-radius: 6%;
+}
+
+
 @media only screen and (max-width:100%) {
   /* For tablets: */
   .parent {
     width: 100%;
     padding: 0;
   }
-  .right {
-    width: 100%;
-  }
+  
+   
 }
 @media only screen and (max-width:100%) {
   /* For mobile phones: */
-  .navbar , .parent, .right {
+  .navbar , .parent, .right, .laatikko1, .laatikko2, .laatikko3  {
     width: 100%;
+  
+    
   }
 }
+
+@media screen and (max-width: 600px) {
+  .column,.laatikko1, .laatikko2, .laatikko3 {
+    width: 100%;
+    height: 500px;
+    
+  }
+  
+}
+
+@media screen and (max-width: 600px) {
+  .tausta{
+    width: 100%;
+    height: auto;
+  }
+}
+/*@media only screen and (max-width:100%){
+  .laatikko1_kuva, .laatikko2_kuva,.laatikko3_kuva{
+    
+  }
+}*/
