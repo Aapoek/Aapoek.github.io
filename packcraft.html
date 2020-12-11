@@ -1,0 +1,63 @@
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/packcraft.css">
+    <title>Packcraft</title>
+    
+</head>
+<body>
+<header>
+    <div class="navbar">
+        <a href="">Yhteystiedot</a>
+        <a href="">Yrityksentoiminta</a>
+        <a href="">Retkienkuvaus</a>
+        <a href="">Kuvagalleria</a>
+        </div> 
+    <img class="logo" src="kuvat/canoe.fw.png">
+
+    <main>
+
+        <div class="laatikot">
+            <div class="laatikko1" >
+              <div><img class="laatikko1_kuva">
+                <div class="container">
+                    <form action="">
+                      <label for="enimi">Etunimi</label>
+                      <input type="text" id="enimi" name="enimi" placeholder="Etunimi">
+                  
+                      <label for="snimi">Sukunimi</label>
+                      <input type="text" id="snimi" name="snimi" placeholder="Sukunimi">
+
+                      <label for="paikka">Valitse retkikohde</label>
+                      <select id="paikka">
+                        <option value="pyhajarvi" selected>Pyhäjärvi</option>
+                        <option value="isojarvi">Isojärvi</option>
+                        <option value="helvetinjarvi">Helvetinjärvi</option>
+                        <option value="vatsari" >Vätsäri</option>
+                      </select>
+
+                       <label for="puhelin">Puhelinnumero</label><br>
+                      <input type="tel" id="puhelin" name="puhelin" placeholder="Puhelinnumero"><br>
+                      
+                      
+                      <label for="paiva">Valitse päivämäärä retkellesi</label><br>
+                      <input type="date" id="date">
+        
+                        
+                      <br><input type="submit" value="Lähetä varaus">
+                    </form>
+                  </div>
+                  </div>
+            </div>
+      
+            <div class="laatikko2"><div>
+            <img class="laatikko2_kuva">
+        </div>
+            </div>
+        </div>    
+    </main>
+ 
+    <footer id="footer"></footer>   
+</body>
+</html>
