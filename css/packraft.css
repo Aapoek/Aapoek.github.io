@@ -18,6 +18,11 @@ body{
   body {
     margin: 0;
   }
+
+  .tausta{
+    width: 100%;
+    height: 100%;
+  }
   
   .navbar {
     overflow: hidden;
@@ -49,6 +54,22 @@ body{
     left: 30px;
   }
 
+ 
+  .varaa{
+      background-color: #4CAF50;
+      border: none;
+      color: black;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    
+  }
+  
+
   .laatikot{
     position: absolute;  
     height: 100%;
@@ -58,7 +79,7 @@ body{
     padding-right: 50px ;
     padding-left: 50px;
     border-width: 1px;
-    padding-top: 70px;
+    padding-top: 50px;
     border-color: black;
     background-color: #FBEEC1;
   }
@@ -67,11 +88,11 @@ body{
     position: relative; 
     top: 10px;
     float: right;
-    height: 520px;
+    height: 580px;
     width: 35%;
     
     right: 10%;
-    background-color:#DAAD86;
+    background-color:#BC986A;
     
   }
   
@@ -80,12 +101,20 @@ body{
     top: 60px;
     float: left;
     top: 10px;
-    height: 520px;
+    height: 580px;
     width: 35%;
  
     left:10%; 
-    background-color:#DAAD86;
+    background-color:#BC986A;
   }
+
+.kartta{
+  padding-left: 90px;
+  padding-right: 50px;
+  width: 200;
+  height:155;
+
+}
 
   body {font-family: Arial, Helvetica, sans-serif;}
   * {box-sizing: border-box;}
@@ -116,12 +145,29 @@ body{
     height: 100%;
     padding: 10px;
   }
+
+.numero{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
 .paikka{
    text-align: center;
 }
+
+.paiva{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
   
 #footer{
-    
+    width: auto;
     position: fixed;
     height: 7%;
     right: 0;
@@ -131,6 +177,10 @@ body{
     background-color: #BC986A;
     text-align: center;
     float: bottom;
+    text-align: center;
+    border-style: solid;
+    border-top-color: black;
+    border-width: 1px;
 }
 
 

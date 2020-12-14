@@ -2,21 +2,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./css/packcraft.css">
-    <title>Packcraft</title>
+    <link rel="stylesheet" type="text/css" href="./css/packraft.css">
+    <title>Packraft</title>
     
 </head>
 <body>
 <header>
     <div class="navbar">
-        <a href="">Yhteystiedot</a>
-        <a href="">Yrityksentoiminta</a>
-        <a href="">Retkienkuvaus</a>
-        <a href="">Kuvagalleria</a>
+        <a class="nappain" href="">Yrityksentoiminta</a>
+        <a class="nappain" href="">Retkienkuvaus</a>
+        <a class="nappain" href="">Kuvagalleria</a>
         </div> 
     <img class="logo" src="kuvat/canoe.fw.png">
 
     <main>
+     <!-- <img class="tausta" src="kuvat/Taitokisakuvat-14.jpg">-->
 
         <div class="laatikot">
             <div class="laatikko1" >
@@ -38,26 +38,34 @@
                       </select>
 
                        <label for="puhelin">Puhelinnumero</label><br>
-                      <input type="tel" id="puhelin" name="puhelin" placeholder="Puhelinnumero"><br>
+                      <input class="numero" type="tel" id="puhelin" name="puhelin" placeholder="Puhelinnumero"><br>
                       
-                      
+
                       <label for="paiva">Valitse päivämäärä retkellesi</label><br>
-                      <input type="date" id="date">
+                      <input class="paiva" type="date" id="date">
         
                         
-                      <br><input type="submit" value="Lähetä varaus">
+                      <br><input class="varaa" type="submit" value="Lähetä varaus">
                     </form>
                   </div>
                   </div>
             </div>
       
-            <div class="laatikko2"><div>
+            <div class="laatikko2">
+            <h2>Yhteystiedot</h2>  
+            Haukkajoentie 186<br> 34600 Ruovesi,<br> GSM: +358 50 9638527,<br> joose@wildpackrafting.com
+            <div class="kartta"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30013.117695094923!2d23.902867745623432!3d61.955856004108576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468f4939adc0e04d%3A0x5a891179b8fce379!2sHaukkajoentie%20186%2C%2034600%20Ruovesi!5e0!3m2!1sfi!2sfi!4v1607928541039!5m2!1sfi!2sfi"></iframe></div>
+            <div>
             <img class="laatikko2_kuva">
         </div>
             </div>
         </div>    
     </main>
  
-    <footer id="footer"></footer>   
+    <footer id="footer">
+      <img src="">
+      <img src="">
+      <img src="">
+    </footer>   
 </body>
 </html>
