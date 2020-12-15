@@ -14,7 +14,24 @@ body{
     line-height: 3;
 }
 
-   
+.tausta{
+  background-color: #FBEEC1;
+}
+.taustakuva{
+  padding-top: 20px;
+  position: relative;
+  margin:right;
+  left: 10%;
+  
+}
+.teksti{
+  position: absolute;
+  text-align: center;
+  margin-left: 10px;
+  font-size: 11px;
+  left: 10%;
+  right: 500px;
+}
 
   
   body {
