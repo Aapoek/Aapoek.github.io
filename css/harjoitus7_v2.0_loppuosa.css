@@ -1,0 +1,49 @@
+.loppulaatikko{
+    height: 420px;
+    width: 100%;
+    background-color:#3A405A;
+    margin-top: 100px;
+    color: #F9DEC9;
+}
+
+
+.loppuosa1{
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.loppuosa2 {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 300px 300px 300px; /*Make the grid smaller than the container*/
+    grid-gap: 10px;
+    padding: 10px;
+    padding-top: 40px;
+    
+    
+  }
+  
+  .loppuosa2 > div {
+    
+    text-align: left;
+    padding: 0px 0px;
+    font-size: 15px;
+    line-height: 2;
+  }
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.auto {
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px 60px 60px;
+    padding: 10px;
+    text-align: center;
+  }
+
+
+  .auto {
+    padding: 0px;
+    font-size: 15px;
+    text-align: center;
+  }

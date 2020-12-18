@@ -1,0 +1,181 @@
+.laatikot {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 23% 23% 23%; 
+    grid-gap: 10px;
+    padding-top: 20px;
+    color: #99B2DD ;
+   
+
+  }
+  
+  .laatikot > div {
+    text-align: center;
+    padding: 0px 0;
+    font-size: 30px;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 0.5px;
+    object-fit: cover;
+  }
+
+  .kuva{
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-size: cover;
+    margin: auto;
+    border: thin;
+    
+  }
+
+.hakuteksti{
+    font-size: 20px;
+    text-align: center;
+    line-height: 1;
+    padding: 15px;
+    color: #3A405A;
+}
+
+.otsikko{
+    line-height: 2;
+    color: #3A405A;
+}
+
+.button {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 12px;
+    border-color:#3A405A ;
+    color: #3A405A;
+    background-color: white;
+    padding: 15px 100px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.button:hover {
+    background-color:#3A405A;
+    color:#F9DEC9;
+}
+
+
+
+.hr{
+    opacity: 0.75;
+    color: grey;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.laatikot_0{
+    display: grid;
+    grid-template-columns: 23% 55%;
+    justify-content: space-evenly; 
+    grid-gap: 5px;
+    padding-top: 20px;
+    
+
+}
+
+
+  .laatikot_0 > div {
+    text-align: center;
+    padding: 0px 0;
+    font-size: 30px;
+    border-radius: 12px;
+   
+    border-width: 0.5px;
+    object-fit: cover;
+  }
+
+  .kuva_0{
+    width: 100%;
+    height: 100%;
+
+  }
+
+.otsikko_0{
+    line-height: 2;
+    color: #3A405A;
+    text-align: left;
+    margin-right: 15%;
+    line-height: 1;
+} 
+
+.teksti_0{
+    font-size: 20px;
+    text-align: left;
+    line-height: 1;
+    color: #3A405A;
+    float: left;
+}
+
+.lisaa{
+    color: #3A405A;
+    font-size: 20px;
+    float: left;
+    text-decoration:none;
+    font-weight: 900;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+
+
+.laatikot_01{
+    display: grid;
+    grid-template-columns: 55% 23% ;
+    justify-content: space-evenly; 
+    grid-gap: 5px;
+    padding-top: 20px;
+    
+
+}
+
+
+  .laatikot_01 > div {
+    text-align: center;
+    padding: 0px 0;
+    font-size: 30px;
+    border-radius: 12px;
+   
+    border-width: 0.5px;
+    object-fit: cover;
+  }
+
+  .kuva_01{
+    width: 100%;
+    height: 100%;
+
+  }
+
+.otsikko_01{
+    line-height: 2;
+    color: #3A405A;
+    text-align: left;
+    margin-right: 15%;
+    line-height: 1;
+} 
+
+.teksti_01{
+    font-size: 20px;
+    text-align: left;
+    line-height: 1;
+    color: #3A405A;
+    float: left;
+}
+
+.lisaa1{
+    color: #3A405A;
+    font-size: 20px;
+    float: left;
+    text-decoration:none;
+    font-weight: 900;
+}
