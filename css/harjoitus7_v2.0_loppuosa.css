@@ -1,5 +1,5 @@
 .loppulaatikko{
-    height: 420px;
+    height: 430px;
     width: 100%;
     background-color:#3A405A;
     margin-top: 100px;
@@ -36,14 +36,23 @@
 
 .auto {
     display: grid;
-    grid-template-columns: 60px 60px 60px 60px 60px 60px;
+    grid-template-columns: 70px 70px 70px 70px 70px 70px;
     padding: 10px;
     text-align: center;
+
   }
 
 
   .auto {
-    padding: 0px;
+    padding-left: 45px;
     font-size: 15px;
     text-align: center;
+  }
+
+  .lt{
+      font-size: 15px;
+  }
+
+  .lt1{
+      font-size: 12px;
   }
