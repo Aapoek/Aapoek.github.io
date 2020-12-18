@@ -4,6 +4,7 @@
     background-color:#3A405A;
     margin-top: 100px;
     color: #F9DEC9;
+    
 }
 
 
@@ -19,12 +20,15 @@
     grid-gap: 10px;
     padding: 10px;
     padding-top: 40px;
+    text-decoration: none;
+    color:#F9DEC9 ;
+    
     
     
   }
   
   .loppuosa2 > div {
-    
+    text-decoration: none;
     text-align: left;
     padding: 0px 0px;
     font-size: 15px;
@@ -33,7 +37,10 @@
 
 /*--------------------------------------------------------------------------------------------------------------------------------*/
 
-
+.grid-item{
+    height: 50px;
+    width: 50px;
+}
 .auto {
     display: grid;
     grid-template-columns: 70px 70px 70px 70px 70px 70px;
