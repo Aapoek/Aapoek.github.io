@@ -18,6 +18,7 @@ header{
 main{
     background: white;
     padding: 20px;
+    height: 100%;
 }
 
 footer{
@@ -70,3 +71,8 @@ nav {
    }
    
 }
+@media (max-width:629px) {
+    .linnake {
+      display: none;
+    }
+  }

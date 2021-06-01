@@ -1,0 +1,236 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.text{
+    font-style:  Segoe UI;
+}
+
+body{
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    line-height: 3;
+}
+
+  
+  body {
+    margin: 0;
+  }
+
+  .tausta{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #BC986A ;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
+  .navbar a {
+    float: center;
+    font-size: 16px;
+    color: black ;
+    text-align: center;
+    padding:14px 70px;
+    text-decoration: none;
+    top: 20px;
+    height: 25px;
+    width: 70%;
+    background-color: #E07938;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  
+
+.logo {
+    position: absolute;
+    top: 5px;
+    left: 30px;
+  }
+
+ 
+  .varaa{
+      background-color: #4CAF50;
+      border: none;
+      color: black;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    
+  }
+  
+
+  .laatikot{
+    position: absolute;  
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    
+    padding-right: 50px ;
+    padding-left: 50px;
+    border-width: 1px;
+    padding-top: 50px;
+    border-color: black;
+    background-color: #FBEEC1;
+  }
+  
+  .laatikko1{
+    position: relative; 
+    top: 10px;
+    float: right;
+    height: 580px;
+    width: 35%;
+    
+    right: 10%;
+    background-color:#BC986A;
+    
+  }
+  
+  .laatikko2{
+    position: relative; 
+    top: 60px;
+    float: left;
+    top: 10px;
+    height: 580px;
+    width: 35%;
+ 
+    left:10%; 
+    background-color:#BC986A;
+  }
+
+.kartta{
+  padding-left: 90px;
+  padding-right: 50px;
+  width: 200;
+  height:155;
+
+}
+
+  body {font-family: Arial, Helvetica, sans-serif;}
+  * {box-sizing: border-box;}
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin-bottom: 16px;
+  }
+  label{
+      font-size: 15px;
+  }
+  input[type=submit] {
+    background-color:  #FBEEC1;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #E07938;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+  }
+
+.numero{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.paikka{
+   text-align: center;
+}
+
+.paiva{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+  
+#footer{
+    width: auto;
+    position: fixed;
+    height: 7%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #BC986A;
+    text-align: center;
+    float: bottom;
+    text-align: center;
+    border-style: solid;
+    border-top-color: black;
+    border-width: 1px;
+}
+
+
+
+
+
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+@media only screen and (max-width:100%) {
+  /* For tablets: */
+  .parent {
+    width: 100%;
+    padding: 0;
+  }
+  
+   
+}
+@media only screen and (max-width:100%) {
+  /* For mobile phones: */
+  .navbar , .parent, .right, .laatikko1, .laatikko2, .laatikko3  {
+    width: 100%;
+  
+    
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column,.laatikko1, .laatikko2, .laatikko3 {
+    width: 100%;
+    height: 500px;
+    
+  }
+  
+}
+
+@media screen and (max-width: 600px) {
+  .tausta{
+    width: 100%;
+    height: auto;
+  }
+}
+/*@media only screen and (max-width:100%){
+  .laatikko1_kuva, .laatikko2_kuva,.laatikko3_kuva{
+    
+  }
+}*/
+

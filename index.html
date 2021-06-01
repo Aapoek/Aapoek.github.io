@@ -6,16 +6,46 @@
     <link rel="stylesheet" type="text/css" href="./css/index.css">
 </head>
 <body>
-    <ul>
-        <li><a href = "./harjoitus6.html">harjoitus6</a></li>
+  
+<div class="kokosivu">
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <h1 class="h1">Harjoitukset</h1>
+          <a href="harjoitus1.html">Harjoitus 1</a>
+          <a href="harjoitus2.html">Harjoitus 2</a>
+          <a href="harjoitus4.html">Harjoitus 4</a>
+          <a href="harjoitus6.html">Harjoitus 6</a>
+          <a href="harjoitus7.html">Harjoitus 7</a>
+          <a href="harjoitus7_v2.0.html">Harjoitus7_v2</a>
+          <br>
+          <h1 class="h1">Demot</h1>
+          <a href="demo1.html">Demo 1</a>
+          <a href="demo2.html">Demo 2</a>
+          <a href="demo4.html">Demo 4</a>
+          <a href="demo6.html">Demo 6</a>
+          <a href="demo7a.html">Demo 7a</a>
+          <a href="demo7b.html">Demo 7b</a>
+          <br>
+        </div>
+      </div>
+      
+      
+      <span style="font-size:30px;cursor:pointer" class="avaa" onclick="openNav()">Harjoitukset ja Demot</span>
+      
+  
+
+      <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
         
-        <li><a href = "./demo1.html">Demo 1</a></li>
-        <li><a href = "./demo2.html">Demo 2</a></li>
-        <li><a href = "./demo6.html">Demo 6</a></li>
-        <li><a href = "./sähköinen_asiointipalvelu_harjoitus1.html">Harjoitus 1</a></li>
-        <li><a href = "./harjoitus2.html">Harjoitus 2</a></li>
-        <li><a herf = "./demo4.html">demo 4</a></li>
-        <li><a herf = "./Harjoitus">harjoitus 6</a></li>
-    </ul>
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+
+</div>
+ 
 </body>
 </html>

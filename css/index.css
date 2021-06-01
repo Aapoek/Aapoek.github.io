@@ -1,0 +1,87 @@
+
+
+.kokosivu{
+    margin: 100px;
+    text-align: center;
+    
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+    
+  }
+  
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+    border-style: solid;
+    border-color: green;
+    border-width: 1px;
+  }
+  
+  .overlay-content, .overlay-content1 {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 26px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: green;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+
+  .avaa{
+      height: 60;
+      width: auto;
+      padding: 20px;
+      border-style: solid;
+      border-color: green;
+      border-width: 1px;
+      color: green;
+      background-color: black;
+      border-radius: 12px;
+  }
+  
+  .h1{
+      color:white;
+      font-size: 45px;
+      -webkit-text-stroke: 1px green; /* width and color */
+
+      font-family: sans; color: white;
+  }
+
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }

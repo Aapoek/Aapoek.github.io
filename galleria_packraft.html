@@ -1,0 +1,115 @@
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/galleria_packraft.css">
+
+    <title>Packraft</title>
+    
+</head>
+<body>
+<header>
+    <div class="navbar">
+        <a class="nappain" href="">Yrityksentoiminta</a>
+        <a class="nappain" href="">Retkienkuvaus</a>
+        <a class="nappain" href="">Kuvagalleria</a>
+        </div> 
+    <img class="logo" src="kuvat/canoe.fw.png">
+</header>
+<body>
+
+ <div class="slideshow-container">
+
+    
+    <div class="mySlides fade">
+      <img src="kuvat/Taitokisakuvat-10.jpg" style="width:100%" >
+    </div>
+    
+    <div class="mySlides fade">
+        
+        <img src="kuvat/Taitokisakuvat-12.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+       
+        <img src="kuvat/Taitokisakuvat-3.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+      
+        <img src="kuvat/Taitokisakuvat-4.jpg" style="width:100%">
+      
+      </div>
+
+      <div class="mySlides fade">
+       
+        <img src="kuvat/Taitokisakuvat-5.jpg" style="width:100%">
+        
+      </div>
+
+      <div class="mySlides fade">
+        
+        <img src="kuvat/Taitokisakuvat-6.jpg" style="width:100%">
+        
+      </div>
+
+      <div class="mySlides fade">
+        
+        <img src="kuvat/Taitokisakuvat-7.jpg" style="width:100%">
+        
+      </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+    </div>
+    </main>
+
+
+
+        <footer id="footer">
+      <img src="">
+      <img src="">
+      <img src="">
+    </footer>   
+
+
+
+
+    <script>
+       var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+    </script>
+
+
+
+
+</body>
+</html>
